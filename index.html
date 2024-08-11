@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Kalkulator Sederhana</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Kalkulator Sederhana</h1>
+
+            <div class="input">
+                <input type="number" placeholder="Angka pertama" id="angka1" class="angka1">
+                <select name="operasi_Mtk" id="operasi_Mtk">
+                    <option id="tambah" value="+">+</option>
+                    <option id="kurang" value="-">-</option>
+                    <option id="kali"   value="*">*</option>
+                    <option id="bagi"   value="/">/</option>
+                </select>
+                <input type="number" placeholder="Angka kedua" id="angka2" class="angka2">
+            </div>
+
+            <div class="button">
+                <button type="button" onclick="operasi_mtk()">Jumlahkan</button>
+            </div>
+
+            <span id="hasil">Hasil</span>
+
+            <p>
+                &copy; 2024 Aldhivo, Hak cipta dilindungi undang-undang
+            </p>
+        </div>
+
+        <script src="Script.js"></script>
+    </body>
+</html>

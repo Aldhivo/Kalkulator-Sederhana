@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: white;
+    width: 300px;
+    height: 380px;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    border:none;
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px black;
+}
+
+
+.container .input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .input input{
+    padding: 5px 10px;
+    border-radius: 25px;
+    border: 1px solid black;
+    outline: none;
+    text-align: center;
+}
+
+.container .input select{
+    width: 35px;
+    margin: auto;
+}
+
+.container .button button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    background-color: cyan;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px ;
+    cursor: pointer;
+}
+
+.container span{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.container p{
+    font-size: 14px;
+    text-align: center;
+}
